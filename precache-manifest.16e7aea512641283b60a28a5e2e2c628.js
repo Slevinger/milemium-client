@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f610e638fdd176e6941f0afdccdf1830",
+    "revision": "9887c1d7b2991433b6df4c2aa7a8abc7",
     "url": "/milemium-client/index.html"
   },
   {
-    "revision": "9126e5d072f54163f022",
+    "revision": "bb48f71086adf373c04f",
     "url": "/milemium-client/static/css/main.34de6062.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/milemium-client/static/js/2.0e381641.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "9126e5d072f54163f022",
-    "url": "/milemium-client/static/js/main.670ec7ab.chunk.js"
+    "revision": "bb48f71086adf373c04f",
+    "url": "/milemium-client/static/js/main.80f097b8.chunk.js"
   },
   {
     "revision": "9689a852f4db88c58614",
