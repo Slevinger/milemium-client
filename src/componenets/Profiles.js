@@ -2,7 +2,6 @@ import React, { useContext, useEffect } from "react";
 import { Context as ProfilesContext } from "../context/ProfilesContext";
 import styled from "styled-components";
 import Profile from "./Profile";
-import { useState } from "react";
 import ProfileDialog from "./ProfileDialog";
 
 const ProfilesContainer = styled.div`
@@ -19,9 +18,6 @@ export default () => {
 
   useEffect(() => {
     fetchProfiles();
-    // return () => {
-    //   cleanup
-    // }
   }, []);
 
   return (

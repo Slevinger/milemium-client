@@ -15,7 +15,7 @@ export const Button = styled.div`
   font-size: 16px;
   font-weight: 700;
   border-radius: 7px;
-  z-index: 2;
+
   &:hover {
     cursor: pointer;
   }

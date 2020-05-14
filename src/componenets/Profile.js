@@ -5,7 +5,9 @@ import { Button } from "./StyledComponents";
 
 const ProfileTile = styled.div`
   border-radius: 5px;
+
   width: 30%;
+
   display: flex;
   flex-direction: row;
   background-color: rgba(220, 220, 220, 0.5);
@@ -16,6 +18,10 @@ const ProfileTile = styled.div`
   .profile-name-tile {
     flex: 1;
     margin-left: 24px;
+  }
+  @media (max-width: 480px) {
+    width: 100%;
+    /* big landscape tablets, laptops, and desktops */
   }
 `;
 

@@ -7,7 +7,6 @@ const ProfileEditor = styled.div`
   z-index: 2;
   background-color: white;
   width: 50%;
-  height: 50%;
 
   border-radius: 5px;
   box-shadow: 4px 4px 10px;
