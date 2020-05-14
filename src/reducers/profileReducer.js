@@ -1,5 +1,7 @@
 export const initalState = { name: "", fb_id: "", bio: "" };
 
+// reducer to manage a profile data
+
 export default (state, { type, payload }) => {
   switch (type) {
     case "set_name":

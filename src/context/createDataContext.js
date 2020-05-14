@@ -1,5 +1,11 @@
 import React, { useReducer } from "react";
 
+// a context constructor that uses reducer
+// params :
+//  reducer : a reducer function
+//  actions : a list of actions that are based on that reducer's dispatch
+//  defaultValues: the context's initialState
+
 export default (reducer, actions, defaultValues) => {
   const Context = React.createContext();
 
