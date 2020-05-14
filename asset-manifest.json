@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/milemium-client/static/css/main.5f361e03.chunk.css",
-    "main.js": "/milemium-client/static/js/main.faf129dc.chunk.js",
-    "main.js.map": "/milemium-client/static/js/main.faf129dc.chunk.js.map",
+    "main.js": "/milemium-client/static/js/main.2d5ffe27.chunk.js",
+    "main.js.map": "/milemium-client/static/js/main.2d5ffe27.chunk.js.map",
     "runtime-main.js": "/milemium-client/static/js/runtime-main.25dfcfc5.js",
     "runtime-main.js.map": "/milemium-client/static/js/runtime-main.25dfcfc5.js.map",
-    "static/js/2.448db663.chunk.js": "/milemium-client/static/js/2.448db663.chunk.js",
-    "static/js/2.448db663.chunk.js.map": "/milemium-client/static/js/2.448db663.chunk.js.map",
+    "static/js/2.c8b24725.chunk.js": "/milemium-client/static/js/2.c8b24725.chunk.js",
+    "static/js/2.c8b24725.chunk.js.map": "/milemium-client/static/js/2.c8b24725.chunk.js.map",
     "index.html": "/milemium-client/index.html",
-    "precache-manifest.6003924a1a9cb5d421898861500fe59e.js": "/milemium-client/precache-manifest.6003924a1a9cb5d421898861500fe59e.js",
+    "precache-manifest.994418c4c91e73274611b6b5ec2c09b6.js": "/milemium-client/precache-manifest.994418c4c91e73274611b6b5ec2c09b6.js",
     "service-worker.js": "/milemium-client/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/milemium-client/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.448db663.chunk.js.LICENSE.txt": "/milemium-client/static/js/2.448db663.chunk.js.LICENSE.txt",
+    "static/js/2.c8b24725.chunk.js.LICENSE.txt": "/milemium-client/static/js/2.c8b24725.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/milemium-client/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.25dfcfc5.js",
-    "static/js/2.448db663.chunk.js",
+    "static/js/2.c8b24725.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.faf129dc.chunk.js"
+    "static/js/main.2d5ffe27.chunk.js"
   ]
 }
