@@ -1,23 +1,22 @@
 {
   "files": {
-    "main.css": "/milemium-client/static/css/main.5f361e03.chunk.css",
-    "main.js": "/milemium-client/static/js/main.04696412.chunk.js",
-    "main.js.map": "/milemium-client/static/js/main.04696412.chunk.js.map",
+    "main.css": "/milemium-client/static/css/main.34de6062.chunk.css",
+    "main.js": "/milemium-client/static/js/main.670ec7ab.chunk.js",
+    "main.js.map": "/milemium-client/static/js/main.670ec7ab.chunk.js.map",
     "runtime-main.js": "/milemium-client/static/js/runtime-main.25dfcfc5.js",
     "runtime-main.js.map": "/milemium-client/static/js/runtime-main.25dfcfc5.js.map",
-    "static/js/2.c8b24725.chunk.js": "/milemium-client/static/js/2.c8b24725.chunk.js",
-    "static/js/2.c8b24725.chunk.js.map": "/milemium-client/static/js/2.c8b24725.chunk.js.map",
+    "static/js/2.0e381641.chunk.js": "/milemium-client/static/js/2.0e381641.chunk.js",
+    "static/js/2.0e381641.chunk.js.map": "/milemium-client/static/js/2.0e381641.chunk.js.map",
     "index.html": "/milemium-client/index.html",
-    "precache-manifest.d8b07539b7c285d79c07fdcc3586fc44.js": "/milemium-client/precache-manifest.d8b07539b7c285d79c07fdcc3586fc44.js",
+    "precache-manifest.04eebe54ad5256f888ebaccd69567b4b.js": "/milemium-client/precache-manifest.04eebe54ad5256f888ebaccd69567b4b.js",
     "service-worker.js": "/milemium-client/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/milemium-client/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.c8b24725.chunk.js.LICENSE.txt": "/milemium-client/static/js/2.c8b24725.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/milemium-client/static/media/logo.5d5d9eef.svg"
+    "static/css/main.34de6062.chunk.css.map": "/milemium-client/static/css/main.34de6062.chunk.css.map",
+    "static/js/2.0e381641.chunk.js.LICENSE.txt": "/milemium-client/static/js/2.0e381641.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.25dfcfc5.js",
-    "static/js/2.c8b24725.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.04696412.chunk.js"
+    "static/js/2.0e381641.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.670ec7ab.chunk.js"
   ]
 }
