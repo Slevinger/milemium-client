@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/milenium-client/static/css/main.5f361e03.chunk.css",
-    "main.js": "/milenium-client/static/js/main.d0aaaf38.chunk.js",
-    "main.js.map": "/milenium-client/static/js/main.d0aaaf38.chunk.js.map",
+    "main.js": "/milenium-client/static/js/main.cf0761ab.chunk.js",
+    "main.js.map": "/milenium-client/static/js/main.cf0761ab.chunk.js.map",
     "runtime-main.js": "/milenium-client/static/js/runtime-main.1a34bfce.js",
     "runtime-main.js.map": "/milenium-client/static/js/runtime-main.1a34bfce.js.map",
-    "static/js/2.3da304a1.chunk.js": "/milenium-client/static/js/2.3da304a1.chunk.js",
-    "static/js/2.3da304a1.chunk.js.map": "/milenium-client/static/js/2.3da304a1.chunk.js.map",
+    "static/js/2.4bca2a9f.chunk.js": "/milenium-client/static/js/2.4bca2a9f.chunk.js",
+    "static/js/2.4bca2a9f.chunk.js.map": "/milenium-client/static/js/2.4bca2a9f.chunk.js.map",
     "index.html": "/milenium-client/index.html",
-    "precache-manifest.6f3b73d110bf7d980134d898f9b44a33.js": "/milenium-client/precache-manifest.6f3b73d110bf7d980134d898f9b44a33.js",
+    "precache-manifest.6cfc68f800c8ce9e6fb5922b336139c6.js": "/milenium-client/precache-manifest.6cfc68f800c8ce9e6fb5922b336139c6.js",
     "service-worker.js": "/milenium-client/service-worker.js",
     "static/css/main.5f361e03.chunk.css.map": "/milenium-client/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.3da304a1.chunk.js.LICENSE.txt": "/milenium-client/static/js/2.3da304a1.chunk.js.LICENSE.txt",
+    "static/js/2.4bca2a9f.chunk.js.LICENSE.txt": "/milenium-client/static/js/2.4bca2a9f.chunk.js.LICENSE.txt",
     "static/media/logo.svg": "/milenium-client/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.1a34bfce.js",
-    "static/js/2.3da304a1.chunk.js",
+    "static/js/2.4bca2a9f.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.d0aaaf38.chunk.js"
+    "static/js/main.cf0761ab.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/milenium-client/precache-manifest.6f3b73d110bf7d980134d898f9b44a33.js"
+  "/milenium-client/precache-manifest.6cfc68f800c8ce9e6fb5922b336139c6.js"
 );
 
 self.addEventListener('message', (event) => {
