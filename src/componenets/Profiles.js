@@ -7,6 +7,7 @@ import ProfileDialog from "./ProfileDialog";
 
 const ProfilesContainer = styled.div`
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
 `;
 
