@@ -1,4 +1,5 @@
-export const ADD_USERS = "ADD_USER";
-export const REMOVE_USER = "REMOVE_USER";
-export const GET_USERS = "GET_USERS";
-export const UPDATE_USER = "UPDATE_USER";
+export const ADD_PROFILES = "ADD_PROFILE";
+export const REMOVE_PROFILE = "REMOVE_PROFILE";
+export const GET_PROFILES = "GET_PROFILES";
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+export const SET_CURRENT_PROFILE = "SET_CURRENT_PROFILE";
