@@ -96,7 +96,6 @@ const removeProfile = dispatch => async id => {
 };
 
 const updateProfile = dispatch => async details => {
-  debugger;
   const {
     data: { data },
     error
