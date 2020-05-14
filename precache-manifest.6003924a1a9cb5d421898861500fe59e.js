@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7a6511d1365a2c181b94911f602a19c5",
+    "revision": "8a475b838125e4a918bd337ee37e57a4",
     "url": "/milemium-client/index.html"
   },
   {
-    "revision": "e572ddf38e4721a22daa",
+    "revision": "5b1fa388b7bed606cb52",
     "url": "/milemium-client/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "d8d517b174db6bfc95d7",
-    "url": "/milemium-client/static/js/2.4bca2a9f.chunk.js"
+    "revision": "3aa25a1b041314bddd57",
+    "url": "/milemium-client/static/js/2.448db663.chunk.js"
   },
   {
-    "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/milemium-client/static/js/2.4bca2a9f.chunk.js.LICENSE.txt"
+    "revision": "c64c486544348f10a6d6c716950bc223",
+    "url": "/milemium-client/static/js/2.448db663.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e572ddf38e4721a22daa",
-    "url": "/milemium-client/static/js/main.8f651152.chunk.js"
+    "revision": "5b1fa388b7bed606cb52",
+    "url": "/milemium-client/static/js/main.faf129dc.chunk.js"
   },
   {
     "revision": "9689a852f4db88c58614",
