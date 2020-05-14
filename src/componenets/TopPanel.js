@@ -7,6 +7,7 @@ import styled from "styled-components";
 import { Button } from "./StyledComponents";
 
 const TopPanel = styled.div`
+  position: relative;
   background-color: black;
   display: flex;
   height: 50px;
@@ -20,6 +21,9 @@ const TopPanel = styled.div`
     height: 30px;
     border-radius: 5px;
     border-width: 2px;
+    @media (max-width: 480px) {
+      width: 95px;
+    }
   }
 `;
 
