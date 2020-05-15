@@ -1,32 +1,33 @@
-import React, { useContext, useReducer, useState } from "react";
+import React, { useContext, useReducer, useState, useCallback } from "react";
 import { Context as ProfilesContext } from "../context/ProfilesContext";
 import styled from "styled-components";
 import profileReducer from "../reducers/profileReducer";
 import { Button } from "./StyledComponents";
+import CloseIcon from "@material-ui/icons/Close";
+import Input from "./Input";
 const ProfileEditor = styled.div`
   z-index: 2;
   background-color: white;
+  position: relative;
   width: 50%;
 
   border-radius: 5px;
   box-shadow: 4px 4px 10px;
   display: flex;
   flex-direction: column;
+  input {
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+  }
   .row {
     padding: 10px;
     display: flex;
     flex-direction: row;
 
-    input {
-      border-radius: 5px;
-      width: 100%;
-      padding: 5px;
-      font-size: 16px;
-      border-width: 1px;
-    }
-    &:first-child {
-      border-bottom: 1px solid lightgrey;
-    }
+    border-bottom: 1px solid lightgrey;
   }
   .profile-name {
     flex: 1;
@@ -46,6 +47,16 @@ const ProfileEditor = styled.div`
     }
   }
 `;
+
+const Icon = styled(CloseIcon)`
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: lightgrey;
+  &:hover {
+    cursor: pointer;
+  }
+`;
 //`http://graph.facebook.com/${fb_id}/picture?type=square`
 export default () => {
   const {
@@ -58,8 +69,14 @@ export default () => {
     profileReducer,
     currentProfile
   );
+
+  const closeDialog = useCallback(() => {
+    setCurrentProfile(null);
+    dispatch({ type: "reset" });
+  }, [setCurrentProfile, dispatch]);
   return (
     <ProfileEditor className="dialog-content">
+      <Icon />
       <div className="row">
         <div className="image-container">
           <img
@@ -70,48 +87,33 @@ export default () => {
       </div>
       <div style={{ flex: 1 }}>
         <div className="row">
-          <input
-            onChange={e => {
-              dispatch({ type: "set_name", payload: e.target.value });
-            }}
+          <Input
             value={name}
-            name="name"
+            actionType="set_name"
+            dispatch={dispatch}
             placeholder="Name"
-            type="text"
           />
         </div>
         <div className="row">
-          <input
-            onChange={e => {
-              dispatch({ type: "set_bio", payload: e.target.value });
-            }}
+          <Input
             value={bio}
-            name="bio"
+            actionType="set_bio"
+            dispatch={dispatch}
             placeholder="Bio"
-            type="text"
           />
         </div>
         <div className="row">
-          <input
-            onChange={e => {
-              dispatch({ type: "set_fb_id", payload: e.target.value });
-            }}
+          <Input
             value={fb_id}
-            name="fb_id"
-            placeholder="FaceBook Id"
-            type="text"
+            actionType="set_fb_id"
+            dispatch={dispatch}
+            placeholder="FaceBook ID"
           />
         </div>
       </div>
       <div className="row">
         <div style={{ flex: 1 }} />
-        <Button
-          onClick={() => {
-            setCurrentProfile(null);
-          }}
-        >
-          Close
-        </Button>
+        <Button onClick={closeDialog}>Close</Button>
         <Button
           onClick={() => {
             updateProfile({ _id, name, bio, fb_id });
