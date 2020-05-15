@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/milemium-client/precache-manifest.16e7aea512641283b60a28a5e2e2c628.js"
+  "/milemium-client/precache-manifest.f04f5bd916fcf7d6325adbac6c2c070b.js"
 );
 
 self.addEventListener('message', (event) => {
