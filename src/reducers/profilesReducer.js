@@ -15,9 +15,10 @@ export default (state, { type, payload }) => {
       break;
     case REMOVE_PROFILE:
       const { profile: profileToRemove } = payload;
+      debugger;
       return {
         ...state,
-        profiles: state.filter(profile => profile._id !== profileToRemove._id)
+        profiles: state.profiles.filter(({ _id }) => profileToRemove !== _id)
       };
     case UPDATE_PROFILE:
       const { profile: profileToUpdate } = payload;

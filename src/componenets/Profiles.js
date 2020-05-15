@@ -4,9 +4,9 @@ import styled from "styled-components";
 import Profile from "./Profile";
 import ProfileDialog from "./ProfileDialog";
 
-const ProfilesContainer = styled.div`
+const ProfilesWrapper = styled.div`
   display: flex;
-  justify-content: space-evenly;
+  justify-content: flex-start;
   flex-wrap: wrap;
 `;
 
@@ -21,11 +21,11 @@ export default () => {
   }, []);
 
   return (
-    <ProfilesContainer>
+    <ProfilesWrapper>
       <ProfileDialog />
       {profiles.map(profile => (
         <Profile {...profile} />
       ))}
-    </ProfilesContainer>
+    </ProfilesWrapper>
   );
 };

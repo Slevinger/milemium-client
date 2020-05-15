@@ -2,9 +2,9 @@ import styled from "styled-components";
 
 export const Button = styled.div`
   height: 30px;
-  background-color: ${({ color }) => color || "#2f78b9"};
+  background-color: ${({ bgColor }) => bgColor || "#2f78b9"};
   border: solid thin;
-  color: white;
+  color: ${({ color }) => color || "white"};
   margin: 5px 2px;
 
   margin-right: 25px;

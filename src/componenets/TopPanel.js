@@ -5,7 +5,7 @@ import profileReducer, {
 } from "../reducers/profileReducer";
 import styled from "styled-components";
 import { Button } from "./StyledComponents";
-
+import Input from "./Input";
 const TopPanel = styled.div`
   position: relative;
   background-color: black;
@@ -37,35 +37,27 @@ export default () => {
 
   return (
     <TopPanel>
-      <input
-        onChange={e => {
-          dispatch({ type: "set_name", payload: e.target.value });
-        }}
+      <Input
         value={name}
-        name="name"
+        actionType="set_name"
+        dispatch={dispatch}
         placeholder="Name"
-        type="text"
       />
-      <input
-        onChange={e => {
-          dispatch({ type: "set_bio", payload: e.target.value });
-        }}
+      <Input
         value={bio}
-        name="bio"
+        actionType="set_bio"
+        dispatch={dispatch}
         placeholder="Bio"
-        type="text"
       />
-      <input
-        onChange={e => {
-          dispatch({ type: "set_fb_id", payload: e.target.value });
-        }}
+      <Input
         value={fb_id}
-        name="fb_id"
-        placeholder="FaceBook Id"
-        type="text"
+        actionType="set_fb_id"
+        dispatch={dispatch}
+        placeholder="FaceBook ID"
       />
+
       <Button
-        color={"#58b957"}
+        bgColor={"#58b957"}
         onClick={() => {
           addProfile({ name, bio, fb_id });
           dispatch({ type: "reset" });

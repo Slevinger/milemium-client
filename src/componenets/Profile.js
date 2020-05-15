@@ -1,8 +1,8 @@
-import React, { useContext } from "react";
+import React, { useContext, useCallback } from "react";
 import styled from "styled-components";
 import { Context as ProfilesContext } from "../context/ProfilesContext";
 import { Button } from "./StyledComponents";
-
+import DeleteForeverIcon from "@material-ui/icons/DeleteForever";
 const ProfileTile = styled.div`
   border-radius: 5px;
 
@@ -15,6 +15,10 @@ const ProfileTile = styled.div`
   height: 60px;
   margin: 5px;
   align-items: center;
+  svg {
+    cursor: pointer;
+    margin-right: 10px;
+  }
   .profile-name-tile {
     flex: 1;
     margin-left: 24px;
@@ -26,17 +30,24 @@ const ProfileTile = styled.div`
 `;
 
 export default ({ _id, name }) => {
-  const { setCurrentProfile } = useContext(ProfilesContext);
+  const { setCurrentProfile, removeProfile } = useContext(ProfilesContext);
+  const setCurrentProfileAction = useCallback(() => {
+    setCurrentProfile(_id);
+  }, [_id, setCurrentProfile]);
+  const removeProfileAction = useCallback(() => {
+    debugger;
+    removeProfile(_id);
+  }, [_id, removeProfile]);
   return (
     <ProfileTile>
       <div className="profile-name-tile">{name}</div>
-      <Button
-        onClick={() => {
-          setCurrentProfile(_id);
-        }}
-      >
-        Edit
-      </Button>
+      <Button onClick={setCurrentProfileAction}>Edit</Button>
+
+      <DeleteForeverIcon
+        title="Remove"
+        onClick={removeProfileAction}
+        style={{ color: "red" }}
+      />
     </ProfileTile>
   );
 };
