@@ -10,6 +10,11 @@ const ProfileEditor = styled.div`
   background-color: white;
   position: relative;
   width: 50%;
+  @media (max-width: 480px) {
+    width: 100%;
+
+    /* big landscape tablets, laptops, and desktops */
+  }
 
   border-radius: 5px;
   box-shadow: 4px 4px 10px;
