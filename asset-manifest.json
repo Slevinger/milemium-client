@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/milemium-client/static/css/main.34de6062.chunk.css",
-    "main.js": "/milemium-client/static/js/main.2d4e07d4.chunk.js",
-    "main.js.map": "/milemium-client/static/js/main.2d4e07d4.chunk.js.map",
+    "main.js": "/milemium-client/static/js/main.8beb5554.chunk.js",
+    "main.js.map": "/milemium-client/static/js/main.8beb5554.chunk.js.map",
     "runtime-main.js": "/milemium-client/static/js/runtime-main.25dfcfc5.js",
     "runtime-main.js.map": "/milemium-client/static/js/runtime-main.25dfcfc5.js.map",
     "static/js/2.90015828.chunk.js": "/milemium-client/static/js/2.90015828.chunk.js",
     "static/js/2.90015828.chunk.js.map": "/milemium-client/static/js/2.90015828.chunk.js.map",
     "index.html": "/milemium-client/index.html",
-    "precache-manifest.f04f5bd916fcf7d6325adbac6c2c070b.js": "/milemium-client/precache-manifest.f04f5bd916fcf7d6325adbac6c2c070b.js",
+    "precache-manifest.2d8407b6d26c59d21f3ce21dab4c9ff1.js": "/milemium-client/precache-manifest.2d8407b6d26c59d21f3ce21dab4c9ff1.js",
     "service-worker.js": "/milemium-client/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/milemium-client/static/css/main.34de6062.chunk.css.map",
     "static/js/2.90015828.chunk.js.LICENSE.txt": "/milemium-client/static/js/2.90015828.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.25dfcfc5.js",
     "static/js/2.90015828.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.2d4e07d4.chunk.js"
+    "static/js/main.8beb5554.chunk.js"
   ]
 }
