@@ -76,7 +76,7 @@ export default () => {
   }, [setCurrentProfile, dispatch]);
   return (
     <ProfileEditor className="dialog-content">
-      <Icon />
+      <Icon onClick={closeDialog} />
       <div className="row">
         <div className="image-container">
           <img
